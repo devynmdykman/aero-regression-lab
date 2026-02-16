@@ -1,0 +1,31 @@
+aero-regression-lab/
+  pyproject.toml
+  README.md
+  .gitignore
+  data/
+    sample_runs/               ## generated demo data lands here
+  reglab/
+    __init__.py
+    config.py
+    ingest/
+      __init__.py
+      parsers.py
+    db/
+      __init__.py
+      schema.py
+      repo.py
+    analysis/
+      __init__.py
+      deltas.py
+      trends.py
+    report/
+      __init__.py
+      render.py
+    cli/
+      __init__.py
+      main.py
+    app/
+      streamlit_app.py
+    utils/
+      __init__.py
+      sample_data.py
